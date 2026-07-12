@@ -1,0 +1,51 @@
+version: "3.9"
+
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: heart-disease-api
+    ports:
+      - "8000:8000"
+    environment:
+      - MODEL_PATH=models/best_model.joblib
+    volumes:
+      - ../models:/app/models:ro
+    restart: unless-stopped
+    networks:
+      - mlops-net
+
+  prometheus:
+    image: prom/prometheus:v2.52.0
+    container_name: prometheus
+    volumes:
+      - ../monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+    networks:
+      - mlops-net
+    depends_on:
+      - api
+
+  grafana:
+    image: grafana/grafana:10.4.2
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin123
+    volumes:
+      - grafana-data:/var/lib/grafana
+      - ../monitoring/grafana/provisioning:/etc/grafana/provisioning
+    networks:
+      - mlops-net
+    depends_on:
+      - prometheus
+
+volumes:
+  grafana-data:
+
+networks:
+  mlops-net:
+    driver: bridge

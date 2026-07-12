@@ -1,0 +1,44 @@
+replicaCount: 2
+
+image:
+  repository: your-registry/heart-disease-api
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+service:
+  type: LoadBalancer
+  port: 80
+  targetPort: 8000
+
+ingress:
+  enabled: true
+  className: "nginx"
+  hosts:
+    - host: heart-disease-api.local
+      paths:
+        - path: /
+          pathType: Prefix
+
+resources:
+  limits:
+    cpu: 500m
+    memory: 512Mi
+  requests:
+    cpu: 250m
+    memory: 256Mi
+
+autoscaling:
+  enabled: true
+  minReplicas: 2
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 70
+
+env:
+  MODEL_PATH: "models/best_model.joblib"
+
+monitoring:
+  prometheus:
+    enabled: true
+    scrape: true
+    path: /metrics
+    port: 8000
