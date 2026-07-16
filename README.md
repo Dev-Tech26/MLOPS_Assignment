@@ -1,9 +1,8 @@
 # Heart Disease MLOps Project
 
 > End-to-End ML Pipeline: Data → EDA → Model Training → API → Docker → Kubernetes → CI/CD → Monitoring
-
-[![CI/CD](https://github.com/your-org/heart-disease-mlops/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/your-org/heart-disease-mlops/actions)
 [![Python](https://img.shields.io/badge/python-3.11-blue)](https://python.org)
+[![Python](https://img.shields.io/badge/python-3.14-blue)](https://python.org)
 
 ## Dataset
 
@@ -169,3 +168,7 @@ heart-disease-mlops/
 - `heart_api_latency_seconds` — Request latency histogram
 - `heart_predictions_total` — Predictions by class (0/1)
 - `heart_confidence_score` — Distribution of confidence scores
+
+#--------------------------------------------------------------------
+
+[![Heart Disease MLOps CI/CD Pipeline](https://github.com/Dev-Tech26/MLOPS_Assignment/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/Dev-Tech26/MLOPS_Assignment/actions/workflows/ci-cd.yml)
