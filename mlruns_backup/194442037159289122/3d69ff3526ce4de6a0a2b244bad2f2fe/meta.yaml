@@ -1,0 +1,14 @@
+artifact_uri: file:D:/MyFiles/BITS/MTech/SEMESTER-3/MLOPS/Assignments/1/MLOPS_Assignment/mlruns/194442037159289122/3d69ff3526ce4de6a0a2b244bad2f2fe/artifacts
+end_time: 1783850989094
+entry_point_name: ''
+experiment_id: '194442037159289122'
+lifecycle_stage: active
+run_id: 3d69ff3526ce4de6a0a2b244bad2f2fe
+run_name: SVM
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1783850983490
+status: 3
+tags: []
+user_id: rajes

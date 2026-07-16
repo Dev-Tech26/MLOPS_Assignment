@@ -1,0 +1,10 @@
+artifact_location: file:D:/MyFiles/BITS/MTech/SEMESTER-3/MLOPS/Assignments/1/MLOPS_Assignment/mlruns/194442037159289122/models/m-8a60bd8bc2864217a13322848b75ddc0/artifacts
+creation_timestamp: 1783864610062
+experiment_id: '194442037159289122'
+last_updated_timestamp: 1783864620597
+model_id: m-8a60bd8bc2864217a13322848b75ddc0
+model_type: null
+name: SVM
+source_run_id: fa9d563c477341c3aeb12cb1f15550df
+status: 2
+status_message: null

@@ -1,0 +1,10 @@
+artifact_location: file:D:/MyFiles/BITS/MTech/SEMESTER-3/MLOPS/Assignments/1/MLOPS_Assignment/mlruns/194442037159289122/models/m-93a984eeef184708ad43103a985f340c/artifacts
+creation_timestamp: 1783851106762
+experiment_id: '194442037159289122'
+last_updated_timestamp: 1783851112135
+model_id: m-93a984eeef184708ad43103a985f340c
+model_type: null
+name: Gradient_Boosting
+source_run_id: a266bf231d6b4105930c318f66186f19
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: file:D:/MyFiles/BITS/MTech/SEMESTER-3/MLOPS/Assignments/1/MLOPS_Assignment/mlruns/194442037159289122/ff3aea7835ec48deacae47d75d00b818/artifacts
+end_time: 1783851409971
+entry_point_name: ''
+experiment_id: '194442037159289122'
+lifecycle_stage: active
+run_id: ff3aea7835ec48deacae47d75d00b818
+run_name: Gradient Boosting
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1783851403607
+status: 3
+tags: []
+user_id: rajes

@@ -1,0 +1,10 @@
+artifact_location: file:D:/MyFiles/BITS/MTech/SEMESTER-3/MLOPS/Assignments/1/MLOPS_Assignment/mlruns/194442037159289122/models/m-aa1c51f56989490fbd1fb7fea3736122/artifacts
+creation_timestamp: 1783864732261
+experiment_id: '194442037159289122'
+last_updated_timestamp: 1783864743029
+model_id: m-aa1c51f56989490fbd1fb7fea3736122
+model_type: null
+name: RF_Tuned
+source_run_id: 0dd9c610073948aa868dbf921af494b8
+status: 2
+status_message: null

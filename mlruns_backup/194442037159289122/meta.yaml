@@ -1,0 +1,9 @@
+artifact_location: file:D:/MyFiles/BITS/MTech/SEMESTER-3/MLOPS/Assignments/1/MLOPS_Assignment/mlruns/194442037159289122
+creation_time: 1783849294599
+effective_trace_archival_retention: null
+experiment_id: '194442037159289122'
+last_update_time: 1783849294599
+lifecycle_stage: active
+name: heart-disease-classification
+trace_location: null
+workspace: default

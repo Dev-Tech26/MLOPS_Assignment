@@ -1,0 +1,14 @@
+artifact_uri: file:D:/MyFiles/BITS/MTech/SEMESTER-3/MLOPS/Assignments/1/MLOPS_Assignment/mlruns/194442037159289122/91021696ca7a41548de6824e5adee1bc/artifacts
+end_time: 1783851491690
+entry_point_name: ''
+experiment_id: '194442037159289122'
+lifecycle_stage: active
+run_id: 91021696ca7a41548de6824e5adee1bc
+run_name: Champion_Summary
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1783851491497
+status: 3
+tags: []
+user_id: rajes

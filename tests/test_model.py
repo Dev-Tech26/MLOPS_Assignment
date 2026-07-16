@@ -4,7 +4,7 @@ import sys, os, warnings
 import pandas as pd, numpy as np
 warnings.filterwarnings("ignore")
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
-from preprocess import get_preprocessor, FEATURE_COLS, TARGET_COL
+from src.preprocess import get_preprocessor, FEATURE_COLS, TARGET_COL
 from sklearn.pipeline import Pipeline
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_auc_score

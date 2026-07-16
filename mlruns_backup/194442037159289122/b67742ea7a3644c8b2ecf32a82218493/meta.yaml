@@ -1,0 +1,14 @@
+artifact_uri: file:D:/MyFiles/BITS/MTech/SEMESTER-3/MLOPS/Assignments/1/MLOPS_Assignment/mlruns/194442037159289122/b67742ea7a3644c8b2ecf32a82218493/artifacts
+end_time: 1783863871031
+entry_point_name: ''
+experiment_id: '194442037159289122'
+lifecycle_stage: active
+run_id: b67742ea7a3644c8b2ecf32a82218493
+run_name: Random Forest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1783863858034
+status: 3
+tags: []
+user_id: rajes

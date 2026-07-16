@@ -61,6 +61,7 @@ docker-compose -f docker/docker-compose.yml up
 
 ```bash
 minikube start
+minikube image load heart-disease-api:latest
 kubectl apply -f k8s/namespace.yaml
 kubectl apply -f k8s/deployment.yaml
 kubectl apply -f k8s/service.yaml

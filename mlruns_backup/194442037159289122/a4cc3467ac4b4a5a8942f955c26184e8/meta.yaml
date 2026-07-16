@@ -1,0 +1,14 @@
+artifact_uri: file:D:/MyFiles/BITS/MTech/SEMESTER-3/MLOPS/Assignments/1/MLOPS_Assignment/mlruns/194442037159289122/a4cc3467ac4b4a5a8942f955c26184e8/artifacts
+end_time: 1783851304653
+entry_point_name: ''
+experiment_id: '194442037159289122'
+lifecycle_stage: active
+run_id: a4cc3467ac4b4a5a8942f955c26184e8
+run_name: Logistic Regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1783851295314
+status: 3
+tags: []
+user_id: rajes

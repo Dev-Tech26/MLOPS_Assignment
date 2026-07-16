@@ -1,0 +1,14 @@
+artifact_uri: file:D:/MyFiles/BITS/MTech/SEMESTER-3/MLOPS/Assignments/1/MLOPS_Assignment/mlruns/194442037159289122/f35837a7e09549778c31e90b2e0afae5/artifacts
+end_time: 1783864018343
+entry_point_name: ''
+experiment_id: '194442037159289122'
+lifecycle_stage: active
+run_id: f35837a7e09549778c31e90b2e0afae5
+run_name: RandomForest_GridSearch
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1783864004315
+status: 3
+tags: []
+user_id: rajes

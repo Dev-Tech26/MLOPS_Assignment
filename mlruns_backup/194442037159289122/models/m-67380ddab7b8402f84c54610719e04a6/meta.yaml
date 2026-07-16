@@ -1,0 +1,10 @@
+artifact_location: file:D:/MyFiles/BITS/MTech/SEMESTER-3/MLOPS/Assignments/1/MLOPS_Assignment/mlruns/194442037159289122/models/m-67380ddab7b8402f84c54610719e04a6/artifacts
+creation_timestamp: 1783863828816
+experiment_id: '194442037159289122'
+last_updated_timestamp: 1783863857978
+model_id: m-67380ddab7b8402f84c54610719e04a6
+model_type: null
+name: Logistic_Regression
+source_run_id: 859f6b265b0e49de8d942a72e142e374
+status: 2
+status_message: null

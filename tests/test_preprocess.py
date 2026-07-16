@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
-from preprocess import get_preprocessor, split_data, get_missing_stats, FEATURE_COLS, TARGET_COL
+from src.preprocess import get_preprocessor, split_data, get_missing_stats, FEATURE_COLS, TARGET_COL
 
 
 SAMPLE_DATA = {

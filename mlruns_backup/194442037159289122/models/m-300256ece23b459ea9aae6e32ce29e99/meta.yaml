@@ -1,0 +1,10 @@
+artifact_location: file:D:/MyFiles/BITS/MTech/SEMESTER-3/MLOPS/Assignments/1/MLOPS_Assignment/mlruns/194442037159289122/models/m-300256ece23b459ea9aae6e32ce29e99/artifacts
+creation_timestamp: 1783851306562
+experiment_id: '194442037159289122'
+last_updated_timestamp: 1783851312128
+model_id: m-300256ece23b459ea9aae6e32ce29e99
+model_type: null
+name: Random_Forest
+source_run_id: e63875fcf9ec43aead9105431fcc7fc2
+status: 2
+status_message: null
